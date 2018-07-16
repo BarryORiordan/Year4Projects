@@ -1,0 +1,22 @@
+
+# Using Lua, simulate a camera pointed at a scene.
+
+# comments in the SDL file are written like this
+scene
+  face: verts={(0,0,1), (1,0,0), (0,1,0), (450,-20,0)}; name=f1; col=green;
+  box:  blf=(1, 1, 1); trb=(6, 8, 4); name=box1;
+  box:  blf=(6, 8, 4); trb=(10, 10, 10);    # name defaults to box#1
+  sphere: ctr=(-1,-1,-2); rad=4;	     # name defaults to sphere#1
+  sphere: ctr=(-1,0,1); rad=14; name=football; col=lightblue;
+  # the following should be ignored / unprocessed
+  tetrahedron: verts={(a,b,c), (d,e,f), (g,h,i)}; name=f1; col=green;
+enecs
+
+camera
+  loc=(0, 0, 0);
+  lookat=(1, 0, 0); upis=(0,1,0)
+  dfrontplane=1.0; dbackplane=2.0
+  halfangle=30; rho=1.333;
+  # w=40; # h=30;
+aremac
+

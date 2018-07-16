@@ -1,0 +1,21 @@
+Lua 5.3.3  Copyright (C) 1994-2016 Lua.org, PUC-Rio
+found scene block
+constructing face normal from first three vertices of f1 only...
+Auto-generated: box#1
+Auto-generated: sphere#1
+Cannot handle objects of type tetrahedron; ignoring...
+end of scene block
+found camera block
+end of camera block
+Camera frontplane specified by halfangle / ratio
+
+> query.whatObjects()
+5 known objects:
+Name: f1; type: face
+Name: box1; type: box
+Name: box#1; type: box
+Name: sphere#1; type: sphere
+Name: football; type: sphere
+
+> 
+> 

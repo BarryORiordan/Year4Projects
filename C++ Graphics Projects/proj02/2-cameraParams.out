@@ -1,0 +1,21 @@
+Lua 5.3.3  Copyright (C) 1994-2016 Lua.org, PUC-Rio
+found scene block
+constructing face normal from first three vertices of f1 only...
+Auto-generated: box#1
+Auto-generated: sphere#1
+Cannot handle objects of type tetrahedron; ignoring...
+end of scene block
+found camera block
+end of camera block
+Camera frontplane specified by halfangle / ratio
+
+> query.cameraParams()
+Camera location: (0.000,0.000,0.000)
+Camera looking at: (1.000,0.000,0.000)
+Camera up direction (approx.): (0.000,1.000,0.000)
+Camera dist to frontplane: 1.000
+Camera dist to backplane: 2.000
+Camera frontplane halfangle: 30.000
+                  ratio: 1.333
+
+> 
